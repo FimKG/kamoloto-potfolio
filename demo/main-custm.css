@@ -1,0 +1,86 @@
+/* ===========================
+--- Colors :
+#D85644 & #546979 & 
+#C4C0C0 & #000000 & 
+#FFFFFF; 
+
+--- RGB :
+ rgba(216, 86, 68, 1) & rgba(84, 105, 121, 1) & 
+ rgba(196, 192, 192, 1) & rgba(0, 0, 0, 1) & 
+ rgba(0, 0, 0, .3) & rgba(255, 255, 255, 1)
+=========================== */
+
+body {
+    font-family: Lato !important;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1) !important;
+    color: rgba(196, 192, 192, 1) !important;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.site-sidebar {
+    background-color: rgba(196, 192, 192, 1);
+}
+
+.p-name, .p-job-title, .block-title {
+    color: rgba(84, 105, 121, 1);
+}
+
+.p-job-title {
+    text-decoration: underline;
+}
+
+.fa-envelope, .fa-linkedin-square, .fa-github-square, .fa-twitter-square, .fa-map-marker {
+    border-radius: 100% !important;
+    padding: 5px;
+}
+
+.social-icons i, .home-location i {
+    color: rgba(196, 192, 192, 1);
+    background-color: rgba(84, 105, 121, 1);
+    /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.75) */
+}
+
+.bg-img {
+    background-image: url(../assets/img/bg-1.jpg);
+    /* background-image: url(../assets/img/bg-img.png); */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.home-subheading, .home-heading {
+    color: rgba(196, 192, 192, 1);
+}
+
+.home-heading span {
+    font-size: 24px;
+}
+
+.navigation-extendable {
+    background-color: rgba(84, 105, 121, 1);
+}
+
+.navigation-extendable ul li a, .home-buttons a {
+    color: rgba(216, 86, 68, 1);
+    text-decoration: none;
+}
+
+.navigation-extendable ul li{
+    list-style: none;
+    /* display: inline; */
+}
+
+.avatar{
+    width: 250px;
+    height: 250px;
+}
+
+/* .button-outline{
+    border-color: rgba(216, 86, 68, 1);
+} */
